@@ -89,8 +89,7 @@ def listar_pecas():
     print("\n=== Pecas Reprovadas ===")
     if reprovadas:
         for p in reprovadas:
-            print(f"ID: {p['id']} | Motivos: {', '.join(p['motivos'])} "+
-                  " | Peso: {p['peso']}g | Cor: {p['cor']} | Comp: {p['comprimento']}cm")
+            print(f"ID: {p['id']} | Motivos: {', '.join(p['motivos'])}")
     else:
         print("Nenhuma.")
     print()
