@@ -17,8 +17,12 @@ Peças aprovadas são alocadas em **caixas de 10 unidades**; ao completar 10, a 
 5. Gerar relatório final
 
 ## ▶️ Como executar
-1. Tenha o **Python 3** instalado.
-2. Baixe este repositório/arquivo.
+1. Tenha o **Python 3** instalado, certifique-se que tem o git configurado.
+2. Baixe este repositório:
+    ```bash
+   git clone https://github.com/jaf88/Projeto-Algoritmoss
+   ```
+
 3. No terminal, rode:
    ```bash
    python desafio_automacao.py
